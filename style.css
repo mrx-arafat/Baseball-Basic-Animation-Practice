@@ -1,5 +1,6 @@
 .field {
-  clip-path: polygon(0 1%, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+  border: 2px solid gray;
+  clip-path: polygon(74% 0, 100% 20%, 100% 80%, 76% 100%, 0 100%, 0% 60%, 0 0);
 
   background-color: chartreuse;
 }
