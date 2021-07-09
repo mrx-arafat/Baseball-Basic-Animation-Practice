@@ -1,10 +1,13 @@
 .field {
-  border: 2px solid green;
+  clip-path: polygon(0 1%, 75% 0%, 100% 50%, 75% 100%, 0 100%, 0% 50%);
+
+  background-color: chartreuse;
 }
 
 .bat {
   transition: transform 0.3s ease-in;
   transform: rotate(80deg);
+  z-index: 111;
 }
 .field:hover .bat {
   transition: transform 0.4s ease-out;
